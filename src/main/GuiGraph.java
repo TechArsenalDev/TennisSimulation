@@ -34,10 +34,10 @@ public class GuiGraph extends JFrame{
 
     public void paint(Graphics g)
     {
-        if(net)g.drawLine(350, 280, 350, 300);                      //tennis net
-        g.drawLine(50, 300, 650, 300);                              //ground
+        if(net)g.drawLine(347, 280, 347, 300);                                  //tennis net
+        g.drawLine(50, 300, 644, 300);                                          //ground
 
-        g.setColor(Color.BLUE);                                                     //info
+        g.setColor(Color.BLUE);                                                 //info
         g.drawString("ohne Luftwiderstand", 50, 350);
         g.setColor(Color.RED);
         g.drawString("mit Luftwiderstand", 50, 370);
