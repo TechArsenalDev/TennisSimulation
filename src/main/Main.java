@@ -21,10 +21,10 @@ public class Main {
 
         g = 9.81;
         timestep = 0.001;
-        rho = 1.23;
+        rho = 1.225;
         m = 0.0577;
         cw = 0.35;
-        r = 3.255 *  Math.pow(10, -2);
+        r = 3.35 *  Math.pow(10, -2);
         A = Math.PI * r * r;
         cm = 0.35;
 
@@ -77,7 +77,7 @@ public class Main {
 
 
 
-            while(yOld >= 0 && xOld < 24)
+            while(yOld >= 0 && xOld < 23.77)
             {
                 xArrayDrag.add(xOld);
                 yArrayDrag.add(yOld);
