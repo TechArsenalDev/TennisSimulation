@@ -1,4 +1,4 @@
-package main;
+ package main;
 
 
 import java.util.ArrayList;
@@ -58,7 +58,7 @@ public class Main {
                 yArrayNoDrag.add(y);
 
                 t += timestep;
-                x = velocity*Math.cos(Math.toRadians(angle))*t;
+                x = distance + velocity*Math.cos(Math.toRadians(angle))*t;
                 y = height + velocity*Math.sin(Math.toRadians(angle))*t - 0.5* g *t*t;
             }
         }
